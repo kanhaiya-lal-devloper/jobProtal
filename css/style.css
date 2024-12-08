@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* body
+{
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+} */
+
+.bg-top {
+  background: #036ea2;
+}
+
+.text-blue {
+  color: #036ea2 !important;
+}
+
+nav ul li a:hover {
+  color: #036ea2 !important;
+}
+
+nav ul li a {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.sp1 {
+  font-size: 70px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.card-bg {
+  background: #fefee5;
+  border-bottom: 1px solid gray !important;
+  transition: .5s ease;
+}
+
+.card-bg:hover {
+  background: #eeeec2 !important;
+}
+
+.white-bg:hover {
+  background: white !important;
+  color: rgb(21, 241, 190) !important;
+}
+
+.bg-contact {
+  height: 100%;
+  background-image: url(../images/home_cta.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-submit {
+  height: 100%;
+  background-image: url(../images/resume-cta-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-team {
+  height: 100%;
+  background-image: url(../images/Our-Team-BG-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-card {
+  /* background: rgb(8, 120, 189); */
+  background: linear-gradient(128deg, rgba(8, 120, 189, 1) 0%, rgba(6, 140, 190, 1) 44%, rgba(28, 192, 235, 1) 100%);
+  border-radius: 0px 0px 20px 20px;
+  transition: 0.5s ease;
+}
+
+.bg-card:hover {
+  border-radius: 0px;
+}
+
+.card-text {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.team-card {
+  border-radius: 0px;
+  transition: 0.5s ease;
+}
+
+.team-card:hover {
+  border-radius: 20px 20px 0px 0px !important;
+  box-shadow: 1px 1px 10px rgba(224, 223, 223, 0.5);
+
+}
+
+.ventures-card {
+  border: 1px dashed #036ea2 !important;
+  border-radius: 0px !important;
+}
+
+.venture-text:hover {
+  color: rgb(21, 241, 190) !important;
+}
+
+.fa-mastodon {
+  background: #6364ff !important;
+}
+
+.envelope {
+  background: #888990 !important;
+}
+
+.footer-text:hover {
+  color: white !important;
+  font-size: 15px;
+}
+
+.footer-text2 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.footer-text2:hover {
+  color: gray !important;
+}
+
+.contact-img {
+  background-image: url(../images/contact_us_Bg_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.input-box {
+  border: 0;
+  border-bottom: 3px solid #036ea2;
+}
+
+.input-box::placeholder {
+  color: #036ea2 !important;
+}
+
+.input-box:hover {
+  box-shadow: none !important;
+  border-bottom: 3px solid #036ea2;
+}
+
+.send-btn {
+  border-radius: 0;
+  border: 1px solid #036ea2 !important;
+  transition: .5s ease;
+}
+
+.send-btn:hover {
+  background: #036ea2 !important;
+  color: white !important;
+  box-shadow: none;
+}
+
+.bg-post {
+  background-image: url(../images/inner-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.post-btn {
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  border: 1px solid white;
+  color: white;
+  background: linear-gradient(128deg, rgba(8, 120, 189, 1) 0%, rgba(6, 140, 190, 1) 44%, rgba(28, 192, 235, 1) 100%);
+}
+
+.post-bg {
+  background: linear-gradient(128deg, rgba(8, 120, 189, 1) 0%, rgba(6, 140, 190, 1) 44%, rgba(28, 192, 235, 1) 100%);
+}
+
+.btn-send {
+  border-radius: 0;
+  border: 1px solid white !important;
+  transition: .5s ease;
+  color: white;
+
+}
+
+.btn-send:hover {
+  background: white !important;
+  color: #036ea2 !important;
+  box-shadow: none;
+}
+
+.post-text:hover {
+  color: black !important;
+  font-size: 15px;
+}
+
+.vision-card {
+  border: 2px solid #036ea2 !important;
+  border-radius: 30px !important;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
+  transition: .5s ease;
+}
+
+.vision-card:hover
+{
+  border-radius: 0px 30px 0px 30px !important;  
+}
+.vision-card img
+{
+  transition: .8s ease;
+}
+.vision-card img:hover
+{
+  /* box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3)  !important; */
+  transform: scale(.9);
+  padding: 0;
+  border-radius: 20px;
+}
+
+.it-text
+{
+  font-size: 15px !important;
+}
